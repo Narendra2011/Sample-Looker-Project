@@ -22,6 +22,7 @@ view: order {
       day_of_week,
       week,
       month,
+      month_num,
       quarter,
       year
     ]

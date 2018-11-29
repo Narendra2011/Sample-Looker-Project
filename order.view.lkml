@@ -47,6 +47,11 @@ view: order {
     type: sum
     sql: ${total_amount} ;;
   }
+  measure: order_count {
+    type: count_distinct
+    sql: ${id} ;;
+  }
+
 
   measure: count {
     type: count
